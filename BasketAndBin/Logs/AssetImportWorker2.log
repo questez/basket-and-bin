@@ -1,0 +1,1045 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.36f1 (9fe3b5f71dbb) revision 10478517'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16265 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+Z:\UNITY\Editor\6000.0.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+Z:/UNITY/Projects/basket-and-bin/BasketAndBin
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61320
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: Z:/UNITY/Projects/basket-and-bin/BasketAndBin
+Z:/UNITY/Projects/basket-and-bin/BasketAndBin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14436]  Target information:
+
+Player connection [14436]  * "[IP] 192.168.178.53 [Port] 0 [Flags] 2 [Guid] 4183493904 [EditorId] 4183493904 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VKT7RGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14436] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14436] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 12.75 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.36f1 (9fe3b5f71dbb)
+[Subsystems] Discovering subsystems at path Z:/UNITY/Editor/6000.0.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/UNITY/Projects/basket-and-bin/BasketAndBin/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.8180
+Initialize mono
+Mono path[0] = 'Z:/UNITY/Editor/6000.0.36f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/UNITY/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/UNITY/Editor/6000.0.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: Z:/UNITY/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: Z:/UNITY/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: Z:/UNITY/Editor/6000.0.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004744 seconds.
+- Loaded All Assemblies, in  0.384 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 174 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 853ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (140ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (255ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.673 seconds
+Refreshing native plugins compatible for Editor in 8.14 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.698 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (315ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (236ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 12.57 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 287 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7674 unused Assets / (8.2 MB). Loaded Objects now: 8431.
+Memory consumption went from 188.2 MB to 180.0 MB.
+Total: 11.968000 ms (FindLiveObjects: 1.216500 ms CreateObjectMapping: 1.521400 ms MarkObjects: 5.210100 ms  DeleteObjects: 4.018800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17082.261681 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(07ccc139ffc81e6478b611f8954ce198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(07ccc139ffc81e6478b611f8954ce198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ca0e592d9a56826c8aeb530b444cd8') in 0.0063924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.716681 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd77ea0e37dcb16203db40efce80d6295') in 0.0004134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.918531 seconds.
+  path: Assets/Assets/Scenes
+  artifactKey: Guid(b8926f4da0af27d489188036d72e2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Scenes using Guid(b8926f4da0af27d489188036d72e2d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd080ea7345a9eb9d6d01d1587991811b') in 0.0003918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 8.00 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.813 seconds
+Domain Reload Profiling: 1476ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (159ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (814ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (612ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (378ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 10.00 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7674 unused Assets / (10.0 MB). Loaded Objects now: 8448.
+Memory consumption went from 185.9 MB to 175.9 MB.
+Total: 12.910900 ms (FindLiveObjects: 0.779400 ms CreateObjectMapping: 0.940400 ms MarkObjects: 5.568200 ms  DeleteObjects: 5.621900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 629.994363 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/north-east arrow.png
+  artifactKey: Guid(9bbcdd1552c76f342ae71e92d77b8f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/north-east arrow.png using Guid(9bbcdd1552c76f342ae71e92d77b8f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1674ce555850800481676b7c6d284727') in 0.0978499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/gamepad2.png
+  artifactKey: Guid(148c54b225c0dfc48a6427742f17f18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/gamepad2.png using Guid(148c54b225c0dfc48a6427742f17f18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '491278040f246dcb0600903a3f5d0619') in 0.0118106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/share.png
+  artifactKey: Guid(300d57497f7bbeb4588ccce91f10e85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/share.png using Guid(300d57497f7bbeb4588ccce91f10e85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25c5d22269661b867f7bad42d7fd3e15') in 0.0200827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/south-west arrow.png
+  artifactKey: Guid(1d4d0cd6fb3a3c240a1e0d589cc78725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/south-west arrow.png using Guid(1d4d0cd6fb3a3c240a1e0d589cc78725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e80f10d760e1ac83885819ed2348c3') in 0.0122041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/exit left.png
+  artifactKey: Guid(e12772358f96dbf4ebe1b874adca6028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/exit left.png using Guid(e12772358f96dbf4ebe1b874adca6028) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11941c27a55f1bba2ef551259bd0f43b') in 0.0127911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/backward.png
+  artifactKey: Guid(0ca69b41a36113c4cb5cbe8fa766b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/backward.png using Guid(0ca69b41a36113c4cb5cbe8fa766b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97cde0a3da560895edc0ef2be5380d52') in 0.0117152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/noet-west arrow.png
+  artifactKey: Guid(8fab5b661dcd0864bb13839a160bc39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/noet-west arrow.png using Guid(8fab5b661dcd0864bb13839a160bc39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a8d4108516d3cda584456d28e939086') in 0.0101062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/BUtton A.png
+  artifactKey: Guid(915f7e39bd6632c458f3ac141732d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/BUtton A.png using Guid(915f7e39bd6632c458f3ac141732d571) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee61b181e95b995af9cddb6112042b74') in 0.0222748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/BUtton C.png
+  artifactKey: Guid(07599a1620f73ff47b5afc2c87c1ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/BUtton C.png using Guid(07599a1620f73ff47b5afc2c87c1ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2af0f1d58ebae525e540af4e563b361a') in 0.0236177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/music off.png
+  artifactKey: Guid(abab35710061f68468a5b81b852eefb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/music off.png using Guid(abab35710061f68468a5b81b852eefb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6837aab303b57e983b684bda5fa15bf9') in 0.0138969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/left.png
+  artifactKey: Guid(c2dbc6dc470a3b046b8291ea5826c397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/left.png using Guid(c2dbc6dc470a3b046b8291ea5826c397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17abb4fad87b06b0efc67b986779ce44') in 0.0112977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/gamepad1.png
+  artifactKey: Guid(815c9f9d3930c164c9926ca4c02aa0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/gamepad1.png using Guid(815c9f9d3930c164c9926ca4c02aa0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc0106dddd1a8e71b9000d66f5120864') in 0.0102083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/menu2.png
+  artifactKey: Guid(073512f85f127144c80e4e31d0edd53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/menu2.png using Guid(073512f85f127144c80e4e31d0edd53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fee4e19e7aee57e92b88b79eda5c517') in 0.0103926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/BUtton 3.png
+  artifactKey: Guid(fab110d7060f61f4b815a193d1773557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/BUtton 3.png using Guid(fab110d7060f61f4b815a193d1773557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5471d28653b499f7671e5c16d437591') in 0.0210471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/lock.png
+  artifactKey: Guid(0e2413a4df01bb74482eefe8fe27884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/lock.png using Guid(0e2413a4df01bb74482eefe8fe27884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '743ae985091e8643828f89d1f02c7d5c') in 0.0117781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/hamburger icon.png
+  artifactKey: Guid(526cc0e3015b2ce4890db0c2d9490600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/hamburger icon.png using Guid(526cc0e3015b2ce4890db0c2d9490600) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec1a1b4ae14793e8ab20144fc5f2ae6') in 0.0107744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/info.png
+  artifactKey: Guid(a9e7616118c268a4eaaca886af7fa753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/info.png using Guid(a9e7616118c268a4eaaca886af7fa753) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '871ea4d29b0a1774221fc76e7bfd73ec') in 0.0104832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/left arrow.png
+  artifactKey: Guid(2b751643e14a05747ba418a17dbc024d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/left arrow.png using Guid(2b751643e14a05747ba418a17dbc024d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc076558664a27a3846fc898a2e64fca') in 0.014213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/mic off.png
+  artifactKey: Guid(ce68f53e6cbc56b4b83c7b870383462f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/mic off.png using Guid(ce68f53e6cbc56b4b83c7b870383462f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b0abaee6b631b423143d9ec087623dd') in 0.0102587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/exit right.png
+  artifactKey: Guid(00f38cdbd9e16764b86c22427cc80bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/exit right.png using Guid(00f38cdbd9e16764b86c22427cc80bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d28bbecdb1e7315914d2a5e6d932c1f') in 0.0090121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/pause.png
+  artifactKey: Guid(4c231b5e34dcacd4680d70df86c53750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/pause.png using Guid(4c231b5e34dcacd4680d70df86c53750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba8b8b384cd7d9125ff7588ad2d9a6e6') in 0.0110152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/UI Elements/Black/1x/mic on.png
+  artifactKey: Guid(cc7e6817bcc82564fa92f3e89bc9ac6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/UI Elements/Black/1x/mic on.png using Guid(cc7e6817bcc82564fa92f3e89bc9ac6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db891953a3405d64159b57b324a15df5') in 0.010425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 7.88 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.764 seconds
+Domain Reload Profiling: 1442ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (407ms)
+		LoadAssemblies (330ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (764ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (345ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 11.17 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7674 unused Assets / (10.0 MB). Loaded Objects now: 8487.
+Memory consumption went from 211.8 MB to 201.9 MB.
+Total: 13.281300 ms (FindLiveObjects: 1.046100 ms CreateObjectMapping: 0.966200 ms MarkObjects: 5.056100 ms  DeleteObjects: 6.212200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.49 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (3.7 MB). Loaded Objects now: 8487.
+Memory consumption went from 180.8 MB to 177.1 MB.
+Total: 7.309300 ms (FindLiveObjects: 0.417100 ms CreateObjectMapping: 0.365100 ms MarkObjects: 4.821400 ms  DeleteObjects: 1.705100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 321.449613 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5917f66c089992dd29ad181fa0863fa8') in 0.0058342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.25 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7614 unused Assets / (8.3 MB). Loaded Objects now: 8476.
+Memory consumption went from 163.1 MB to 154.8 MB.
+Total: 11.130100 ms (FindLiveObjects: 0.804600 ms CreateObjectMapping: 0.978500 ms MarkObjects: 5.245000 ms  DeleteObjects: 4.100800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 8.69 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.783 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (401ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (157ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (783ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (600ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 8.04 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7674 unused Assets / (9.7 MB). Loaded Objects now: 8490.
+Memory consumption went from 188.8 MB to 179.1 MB.
+Total: 11.189100 ms (FindLiveObjects: 0.758100 ms CreateObjectMapping: 0.873800 ms MarkObjects: 4.759300 ms  DeleteObjects: 4.797400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.662 seconds
+Refreshing native plugins compatible for Editor in 8.74 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.778 seconds
+Domain Reload Profiling: 1443ms
+	BeginReloadAssembly (198ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (778ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 9.79 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7674 unused Assets / (9.7 MB). Loaded Objects now: 8493.
+Memory consumption went from 211.9 MB to 202.2 MB.
+Total: 13.198700 ms (FindLiveObjects: 0.817200 ms CreateObjectMapping: 1.036100 ms MarkObjects: 5.334000 ms  DeleteObjects: 6.010600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.49 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (3.7 MB). Loaded Objects now: 8493.
+Memory consumption went from 180.8 MB to 177.1 MB.
+Total: 7.099200 ms (FindLiveObjects: 0.501800 ms CreateObjectMapping: 0.552600 ms MarkObjects: 4.776300 ms  DeleteObjects: 1.267600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.682 seconds
+Refreshing native plugins compatible for Editor in 8.38 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1450ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (177ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (766ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (579ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 10.88 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7674 unused Assets / (9.5 MB). Loaded Objects now: 8496.
+Memory consumption went from 211.9 MB to 202.3 MB.
+Total: 12.817400 ms (FindLiveObjects: 0.975200 ms CreateObjectMapping: 0.889300 ms MarkObjects: 5.391700 ms  DeleteObjects: 5.560300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.11 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (3.7 MB). Loaded Objects now: 8496.
+Memory consumption went from 180.9 MB to 177.1 MB.
+Total: 6.619500 ms (FindLiveObjects: 0.454700 ms CreateObjectMapping: 0.199600 ms MarkObjects: 4.664200 ms  DeleteObjects: 1.300200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.90 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7615 unused Assets / (8.3 MB). Loaded Objects now: 8486.
+Memory consumption went from 186.1 MB to 177.8 MB.
+Total: 10.780000 ms (FindLiveObjects: 0.802800 ms CreateObjectMapping: 0.926900 ms MarkObjects: 4.729200 ms  DeleteObjects: 4.320100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 889.099870 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(82207579a9daa7340a91e44b843dbe04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(82207579a9daa7340a91e44b843dbe04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07c6aa6bef1ac7da6caed07dbda8f372') in 0.0104633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.676 seconds
+Refreshing native plugins compatible for Editor in 11.09 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 1551ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (417ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (873ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (660ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 16.54 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7675 unused Assets / (10.1 MB). Loaded Objects now: 8500.
+Memory consumption went from 211.9 MB to 201.9 MB.
+Total: 18.638300 ms (FindLiveObjects: 1.300100 ms CreateObjectMapping: 2.104700 ms MarkObjects: 6.623000 ms  DeleteObjects: 8.608400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.571251 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(82207579a9daa7340a91e44b843dbe04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(82207579a9daa7340a91e44b843dbe04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '977d2d8bd36786dbbf9be0dd70be153d') in 0.0031626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.17 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7615 unused Assets / (8.0 MB). Loaded Objects now: 8489.
+Memory consumption went from 186.1 MB to 178.2 MB.
+Total: 13.254800 ms (FindLiveObjects: 1.362100 ms CreateObjectMapping: 1.673500 ms MarkObjects: 5.109800 ms  DeleteObjects: 5.108400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 8.89 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.UpdatePackageVersions () [0x00034] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:46 
+  at Unity.XR.CoreUtils.Editor.PackageVersionUtility.GetPackageVersion (System.String packageName) [0x00011] in .\Library\PackageCache\com.unity.xr.core-utils@c0df0dd5bced\Editor\ProjectValidation\PackageVersionUtility.cs:67 
+  at UnityEditor.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.ARStarterAssetsSampleProjectValidation..cctor () [0x00032] in Z:\UNITY\Projects\basket-and-bin\BasketAndBin\Assets\Samples\XR Interaction Toolkit\3.0.9\AR Starter Assets\Editor\Scripts\ARStarterAssetsSampleProjectValidation.cs:32 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <383b67993756435b8920080a9ba43b70>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.793 seconds
+Domain Reload Profiling: 1475ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 9.07 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7675 unused Assets / (10.1 MB). Loaded Objects now: 8503.
+Memory consumption went from 188.9 MB to 178.9 MB.
+Total: 19.006600 ms (FindLiveObjects: 1.584200 ms CreateObjectMapping: 2.075800 ms MarkObjects: 7.166800 ms  DeleteObjects: 8.177800 ms)
+
+Prepare: number of updated asset objects reloaded= 0

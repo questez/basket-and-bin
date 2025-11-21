@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|z:\\unity\\projects\\basket-and-bin\\basketandbin\\assets\\scripts\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|z:\\unity\\projects\\basket-and-bin\\basketandbin\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|z:\\unity\\projects\\basket-and-bin\\basketandbin\\assets\\scripts\\ui\\ingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\assets\\scripts\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\assets\\scripts\\ui\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,15 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T17:56:05.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ObjectSpawner.cs",
               "DocumentMoniker": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\ObjectSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectSpawner.cs",
               "ToolTip": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\ObjectSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectSpawner.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T15:29:53.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-21T15:29:53.931Z"
             },
             {
               "$type": "Document",
@@ -49,7 +65,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\InGameMenu.cs",
               "ToolTip": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\InGameMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\InGameMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T11:59:33.171Z",
               "EditorCaption": ""
@@ -62,13 +78,13 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\AudioManager.cs",
               "ToolTip": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\AudioManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\AudioManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T11:40:10.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "Z:\\UNITY\\Projects\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenu.cs",
