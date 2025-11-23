@@ -2167,8 +2167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03f04506f5c7f3649a35a92eb514a514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  basketRing: {fileID: 7441440908871300343, guid: 052f0d9a551166b458c44593c6566808, type: 3}
-  ball: {fileID: 0}
+  basketRing: {fileID: 4708965725589232951, guid: f1ed58764d968b047b58d640e9cf1417, type: 3}
+  ball: {fileID: 7441440908871300343, guid: 052f0d9a551166b458c44593c6566808, type: 3}
   raycastManager: {fileID: 1956903730}
   anchorManager: {fileID: 1956903735}
 --- !u!4 &1904404600

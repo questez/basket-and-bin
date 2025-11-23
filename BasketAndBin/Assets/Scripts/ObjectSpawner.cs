@@ -24,13 +24,17 @@ public class ObjectSpawner : MonoBehaviour
         {
             SpawnBasketRing();
         }
+        else
+        {
+            SpawnBasketBall();
+        }        
     }
 
     private void SpawnBasketRing()
     {
-        TouchControl touch = Touchscreen.current.primaryTouch;
+        if (!Touchscreen.current.primaryTouch.press.isPressed) return;
 
-        if (!touch.press.isPressed) return;
+        TouchControl touch = Touchscreen.current.primaryTouch;        
 
         if (touch.press.wasPressedThisFrame)
         {
@@ -46,7 +50,7 @@ public class ObjectSpawner : MonoBehaviour
                 var anchor = anchorManager.AttachAnchor(plane, hitPose);
                 if (anchor != null)
                 {
-                    Instantiate(basketRing, anchor.transform);
+                    Instantiate(basketRing, anchor.transform.position, Quaternion.Euler(anchor.transform.eulerAngles.x, anchor.transform.eulerAngles.y - 90f, anchor.transform.eulerAngles.z));
                 }
             }
         }
@@ -54,5 +58,31 @@ public class ObjectSpawner : MonoBehaviour
         isBasketSpawned = true;
     }
 
+
+    private void SpawnBasketBall()
+    {
+        if (!Touchscreen.current.primaryTouch.press.isPressed) return;
+
+        TouchControl touch = Touchscreen.current.primaryTouch;
+
+        if (touch.press.wasPressedThisFrame)
+        {
+            Vector2 touchPosition = touch.position.ReadValue();
+
+            if (raycastManager.Raycast(touchPosition, hits, TrackableType.Planes))
+            {
+                Pose hitPose = hits[0].pose;
+
+                ARPlane plane = hits[0].trackable as ARPlane;
+
+
+                var anchor = anchorManager.AttachAnchor(plane, hitPose);
+                if (anchor != null)
+                {
+                    Instantiate(ball, new Vector3(anchor.transform.position.x, anchor.transform.position.y + 2, anchor.transform.position.z), anchor.transform.rotation);
+                }
+            }
+        }
+    }
 
 }
