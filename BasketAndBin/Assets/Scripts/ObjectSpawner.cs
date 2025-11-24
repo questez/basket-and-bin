@@ -4,6 +4,7 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
+using System.Collections;
 
 public class ObjectSpawner : MonoBehaviour
 {
@@ -11,25 +12,34 @@ public class ObjectSpawner : MonoBehaviour
     [SerializeField] private GameObject ball;
 
     [SerializeField] private ARRaycastManager raycastManager;
-    [SerializeField] private ARAnchorManager anchorManager;
-    //[SerializeField] private Camera ARcamera;
+    [SerializeField] private ARAnchorManager anchorManager;    
 
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
-    private bool isBasketSpawned = false;
+    private bool isBasketSpawned;
+    private bool delayInUsingBalls;
+
+    private void Start()
+    {
+        isBasketSpawned = false;
+        delayInUsingBalls = false;
+    }
 
     private void Update()
     {
-        if (!isBasketSpawned)
+        if (!InGameMenu.PauseMode)
         {
-            SpawnBasketRing();
-        }
-        else
-        {
-            SpawnBasketBall();
-        }        
+            if (!isBasketSpawned)
+            {
+                SpawnBasketRing();
+            }
+            else if (!delayInUsingBalls && isBasketSpawned)
+            {
+                SpawnBasketBall();                                
+            }
+        }            
     }
-
+    
     private void SpawnBasketRing()
     {
         if (!Touchscreen.current.primaryTouch.press.isPressed) return;
@@ -45,7 +55,6 @@ public class ObjectSpawner : MonoBehaviour
                 Pose hitPose = hits[0].pose;
 
                 ARPlane plane = hits[0].trackable as ARPlane;
-
 
                 var anchor = anchorManager.AttachAnchor(plane, hitPose);
                 if (anchor != null)
@@ -75,7 +84,6 @@ public class ObjectSpawner : MonoBehaviour
 
                 ARPlane plane = hits[0].trackable as ARPlane;
 
-
                 var anchor = anchorManager.AttachAnchor(plane, hitPose);
                 if (anchor != null)
                 {
@@ -83,6 +91,15 @@ public class ObjectSpawner : MonoBehaviour
                 }
             }
         }
+
+        StartCoroutine(DelayInUse());
     }
 
+
+    private IEnumerator DelayInUse()
+    {
+        delayInUsingBalls = true;
+        yield return new WaitForSecondsRealtime(2f);
+        delayInUsingBalls = false;
+    }
 }

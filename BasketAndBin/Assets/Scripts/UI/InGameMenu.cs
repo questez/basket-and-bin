@@ -1,21 +1,37 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class InGameMenu : MonoBehaviour
 {
+    private Player player = new Player();
+
+    public static bool PauseMode { get; private set; }
+
     [SerializeField] private AudioSource clickSound;
+
     [SerializeField] private GameObject inGameScreen;
     [SerializeField] private GameObject PauseScreen;
+
     [SerializeField] private Button pauseButton;
     [SerializeField] private Button resumeButton1;
     [SerializeField] private Button resumeButton2;
     [SerializeField] private Button quitButton;
 
+    [SerializeField] private TextMeshProUGUI scoreText;
+
     private void Start()
     {
         inGameScreen.SetActive(true);
         PauseScreen.SetActive(false);
+        PauseMode = false;
+        player.ResetScore();
+    }
+
+    private void Update()
+    {
+        scoreText.text = "SCORE: " + player.GetScore().ToString();
     }
 
     private void OnEnable()
@@ -34,26 +50,27 @@ public class InGameMenu : MonoBehaviour
         quitButton.onClick.RemoveListener(Quit);
     }
 
-    private void Pause()
-    {
-        clickSound.Play();
-        inGameScreen.SetActive(false);
-        PauseScreen.SetActive(true);
-        Time.timeScale = 0f;
-    }
-
     private void Resume()
     {
+        PauseMode = false;
         clickSound.Play();
         inGameScreen.SetActive(true);
         PauseScreen.SetActive(false);
         Time.timeScale = 1f;
     }
 
+    private void Pause()
+    {
+        PauseMode = true;
+        clickSound.Play();
+        inGameScreen.SetActive(false);
+        PauseScreen.SetActive(true);
+        Time.timeScale = 0f;
+    }    
+
     private void Quit()
     {
         clickSound.Play();
         SceneManager.LoadScene("MainMenu");
     }
-
 }

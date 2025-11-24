@@ -2218,6 +2218,7 @@ MonoBehaviour:
   resumeButton1: {fileID: 1137911084}
   resumeButton2: {fileID: 136487537}
   quitButton: {fileID: 833686056}
+  scoreText: {fileID: 1893119704}
 --- !u!1 &1956903729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2340,9 +2341,9 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1904404600}
+  - {fileID: 179744827}
   - {fileID: 1685565904}
   - {fileID: 266778997}
   - {fileID: 1956903734}
   - {fileID: 1082407610}
   - {fileID: 275500558}
-  - {fileID: 179744827}

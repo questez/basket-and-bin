@@ -1,6 +1,16 @@
-using UnityEngine;
-
-public class Player : MonoBehaviour
+public class Player
 {
-    public static int PlayerScore { get; private set; }
+    private int score = 0;
+
+    public void IncreaseScore()
+    {
+        score++;
+    }
+
+    public int GetScore() => score;
+
+    public void ResetScore()
+    {
+        score = 0;
+    }
 }
