@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|z:\\unity\\user\\basket-and-bin\\basketandbin\\assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|z:\\unity\\user\\basket-and-bin\\basketandbin\\assets\\scripts\\net.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\net.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|z:\\unity\\user\\basket-and-bin\\basketandbin\\assets\\scripts\\ui\\ingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\assets\\scripts\\ui\\ingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\ingamemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E6BF2E0D-09A0-0544-0CF1-2C7A5ADAB3A6}|Assembly-CSharp.csproj|Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\assets\\scripts\\objectspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,12 +35,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\MainMenu.cs",
+              "ToolTip": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T08:59:45.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Net.cs",
               "DocumentMoniker": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\Net.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Net.cs",
               "ToolTip": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\Net.cs",
               "RelativeToolTip": "Assets\\Scripts\\Net.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T19:12:30.613Z",
               "EditorCaption": ""
@@ -49,34 +66,36 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
               "ToolTip": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T18:15:14.85Z"
+              "WhenOpened": "2025-11-24T18:15:14.85Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "InGameMenu.cs",
               "DocumentMoniker": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\InGameMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\InGameMenu.cs",
               "ToolTip": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\UI\\InGameMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\InGameMenu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T18:14:38.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ObjectSpawner.cs",
               "DocumentMoniker": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\ObjectSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectSpawner.cs",
               "ToolTip": "Z:\\UNITY\\USER\\basket-and-bin\\BasketAndBin\\Assets\\Scripts\\ObjectSpawner.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectSpawner.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwGUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T16:24:15.652Z"
+              "WhenOpened": "2025-11-23T16:24:15.652Z",
+              "EditorCaption": ""
             }
           ]
         }

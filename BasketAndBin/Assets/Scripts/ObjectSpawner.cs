@@ -19,7 +19,7 @@ public class ObjectSpawner : MonoBehaviour
     private bool isBasketSpawned;
     private bool delayInUsingBalls;
 
-    private void Start()
+    private void Awake()
     {
         isBasketSpawned = false;
         delayInUsingBalls = false;
@@ -60,11 +60,10 @@ public class ObjectSpawner : MonoBehaviour
                 if (anchor != null)
                 {
                     Instantiate(basketRing, anchor.transform.position, Quaternion.Euler(anchor.transform.eulerAngles.x, anchor.transform.eulerAngles.y - 90f, anchor.transform.eulerAngles.z));
+                    isBasketSpawned = true;
                 }
             }
-        }
-
-        isBasketSpawned = true;
+        }        
     }
 
 
@@ -88,11 +87,10 @@ public class ObjectSpawner : MonoBehaviour
                 if (anchor != null)
                 {
                     Instantiate(ball, new Vector3(anchor.transform.position.x, anchor.transform.position.y + 2, anchor.transform.position.z), anchor.transform.rotation);
+                    StartCoroutine(DelayInUse());
                 }
             }
-        }
-
-        StartCoroutine(DelayInUse());
+        }        
     }
 
 

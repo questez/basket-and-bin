@@ -1,15 +1,15 @@
 public class Player
 {
-    private int score = 0;
+    private static int score;
 
-    public void IncreaseScore()
+    public static void IncreaseScore()
     {
         score++;
     }
 
-    public int GetScore() => score;
+    public static int GetScore() => score;
 
-    public void ResetScore()
+    public static void ResetScore()
     {
         score = 0;
     }

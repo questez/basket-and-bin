@@ -5,8 +5,6 @@ using TMPro;
 
 public class InGameMenu : MonoBehaviour
 {
-    private Player player = new Player();
-
     public static bool PauseMode { get; private set; }
 
     [SerializeField] private AudioSource clickSound;
@@ -21,17 +19,22 @@ public class InGameMenu : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI scoreText;
 
+    private void Awake()
+    {
+        PauseMode = false;
+    }
+
     private void Start()
     {
         inGameScreen.SetActive(true);
-        PauseScreen.SetActive(false);
-        PauseMode = false;
-        player.ResetScore();
+        PauseScreen.SetActive(false);        
+        Player.ResetScore();
+        Time.timeScale = 1f;
     }
 
     private void Update()
     {
-        scoreText.text = "SCORE: " + player.GetScore().ToString();
+        scoreText.text = "SCORE: " + Player.GetScore().ToString();
     }
 
     private void OnEnable()
@@ -71,6 +74,6 @@ public class InGameMenu : MonoBehaviour
     private void Quit()
     {
         clickSound.Play();
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");              
     }
 }

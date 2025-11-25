@@ -1,14 +1,13 @@
 using UnityEngine;
 
 public class Net: MonoBehaviour
-{
-    private Player player = new Player();
-
-    private void OnTriggerEnter(Collider other)
+{   
+    private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Ball"))
         {
-            player.IncreaseScore();
+            Player.IncreaseScore();
+            Debug.Log("Score increased to: " + Player.GetScore());
         }
     }
 }

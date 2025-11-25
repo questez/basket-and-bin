@@ -36,7 +36,7 @@ public class MainMenu : MonoBehaviour
     private void StartGame()
     {
         clickSound.Play();
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("MainScene");               
     }
 
     private void OpenSettings()
