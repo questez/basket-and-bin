@@ -1,1 +1,0 @@
-D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\521g534n\obj\armeabi-v7a

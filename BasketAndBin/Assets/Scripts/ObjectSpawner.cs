@@ -29,11 +29,11 @@ public class ObjectSpawner : MonoBehaviour
     private bool isSwiping = false;
     private GameObject currentBall;
 
-    [SerializeField] private float throwForceMultiplier = 0.1f; // Умножитель силы
-    [SerializeField] private float minThrowForce = 5f;
-    [SerializeField] private float maxThrowForce = 25f;
-    [SerializeField] private float minSwipeDistance = 30f; // Минимальная дистанция свайпа в пикселях
-    [SerializeField] private float upwardBias = 0.7f; // Смещение вверх для броска
+    [SerializeField] private float throwForceMultiplier = 0.002f; // Умножитель силы
+    [SerializeField] private float minThrowForce = 2f;
+    [SerializeField] private float maxThrowForce = 8f;
+    [SerializeField] private float minSwipeDistance = 50f; // Минимальная дистанция свайпа в пикселях
+    [SerializeField] private float upwardBias = 0.5f; // Смещение вверх для броска
 
     private void Awake()
     {
@@ -163,16 +163,7 @@ public class ObjectSpawner : MonoBehaviour
     {
         Vector2 swipeVector = swipeEndPosition - swipeStartPosition;
         float swipeDistance = swipeVector.magnitude;
-        float swipeDuration = Time.time - swipeStartTime;
-
-        // Проверяем минимальные требования для жеста
-        if (swipeDistance < minSwipeDistance || swipeDuration < 0.05f)
-        {
-            // Слишком короткий свайп - отменяем бросок
-            Destroy(currentBall);
-            currentBall = null;
-            return;
-        }
+        float swipeDuration = Time.time - swipeStartTime;        
 
         // РАСЧЕТ СКОРОСТИ СВАЙПА (пиксели в секунду)
         float swipeSpeed = swipeDistance / swipeDuration;
@@ -189,7 +180,7 @@ public class ObjectSpawner : MonoBehaviour
         StartCoroutine(DelayInUse());
     }
 
-    private float CalculateThrowForce(float swipeSpeed, float swipeDistance)
+    private float CalculateThrowForce(float swipeSpeed, float swipeDistance) // РАСЧЕТ СИЛЫ БРОСКА
     {
         // Комбинируем скорость и дистанцию для более точного расчета силы
         float combinedForce = (swipeSpeed * 0.7f) + (swipeDistance * 0.3f);
@@ -198,7 +189,7 @@ public class ObjectSpawner : MonoBehaviour
         return Mathf.Clamp(force, minThrowForce, maxThrowForce);
     }
 
-    private Vector3 CalculateThrowDirection(Vector2 swipeVector)
+    private Vector3 CalculateThrowDirection(Vector2 swipeVector) // РАСЧЕТ НАПРАВЛЕНИЯ БРОСКА
     {
         // Нормализуем вектор свайпа
         Vector2 normalizedSwipe = swipeVector.normalized;
@@ -224,7 +215,6 @@ public class ObjectSpawner : MonoBehaviour
         Rigidbody ballRb = currentBall.GetComponent<Rigidbody>();
         if (ballRb != null)
         {
-            ballRb.isKinematic = false;
             ballRb.collisionDetectionMode = CollisionDetectionMode.Continuous; // Для лучшего обнаружения столкновений
 
             // Применяем силу
@@ -233,7 +223,7 @@ public class ObjectSpawner : MonoBehaviour
             // Добавляем случайное вращение
             ballRb.AddTorque(Random.insideUnitSphere * force * 0.1f, ForceMode.Impulse);
         }
-
+        Destroy(currentBall, 5);
         currentBall = null;
     }
 

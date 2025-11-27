@@ -13,9 +13,9 @@ public class Net: MonoBehaviour
     {
         if (other.CompareTag("Ball"))
         {
-            Player.IncreaseScore();
-            Debug.Log("Score increased to: " + Player.GetScore());
             ringHitSound.Play();
+            Player.IncreaseScore();
+            Debug.Log("Score increased to: " + Player.GetScore());            
         }
     }
 }
