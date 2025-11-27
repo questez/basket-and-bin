@@ -1,0 +1,17 @@
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\GAToUnityCallbacks.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroEnd.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroHeaderBegin.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\MacroSourceBegin.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAApplication.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAConfiguration.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGADebug.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAEvents.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAInput.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboard.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGASoftKeyboardCallbacks.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGATypes.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UGAVersion.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGACallbacks.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAConfigurationCallbacks.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAKeyEventCallbacks.h
+D:\IVAN\UnityPROJECTS\basket-and-bin\BasketAndBin\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\UnityToGAMotionEventCallbacks.h

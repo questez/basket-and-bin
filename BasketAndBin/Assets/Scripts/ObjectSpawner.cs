@@ -5,9 +5,13 @@ using UnityEngine.InputSystem.Controls;
 using UnityEngine.InputSystem;
 using System.Collections.Generic;
 using System.Collections;
+using UnityEngine.InputSystem.EnhancedTouch;
+using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 public class ObjectSpawner : MonoBehaviour
 {
+    [SerializeField] private Transform player_transform;
+
     [SerializeField] private GameObject basketRing;
     [SerializeField] private GameObject ball;
 
@@ -19,10 +23,35 @@ public class ObjectSpawner : MonoBehaviour
     private bool isBasketSpawned;
     private bool delayInUsingBalls;
 
+    private Vector2 swipeStartPosition;
+    private Vector2 swipeEndPosition;
+    private float swipeStartTime;
+    private bool isSwiping = false;
+    private GameObject currentBall;
+
+    [SerializeField] private float throwForceMultiplier = 0.1f; // Умножитель силы
+    [SerializeField] private float minThrowForce = 5f;
+    [SerializeField] private float maxThrowForce = 25f;
+    [SerializeField] private float minSwipeDistance = 30f; // Минимальная дистанция свайпа в пикселях
+    [SerializeField] private float upwardBias = 0.7f; // Смещение вверх для броска
+
     private void Awake()
     {
+        EnhancedTouchSupport.Enable();
         isBasketSpawned = false;
         delayInUsingBalls = false;
+    }
+
+    private void OnEnable()
+    {
+        Touch.onFingerDown += OnFingerDown;
+        Touch.onFingerUp += OnFingerUp;
+    }
+
+    private void OnDisable()
+    {
+        Touch.onFingerDown -= OnFingerDown;
+        Touch.onFingerUp -= OnFingerUp;
     }
 
     private void Update()
@@ -33,10 +62,10 @@ public class ObjectSpawner : MonoBehaviour
             {
                 SpawnBasketRing();
             }
-            else if (!delayInUsingBalls && isBasketSpawned)
-            {
-                SpawnBasketBall();                                
-            }
+            //else if (!delayInUsingBalls && isBasketSpawned)
+            //{
+            //    SpawnBasketBall();                                
+            //}
         }            
     }
     
@@ -66,7 +95,6 @@ public class ObjectSpawner : MonoBehaviour
         }        
     }
 
-
     private void SpawnBasketBall()
     {
         if (!Touchscreen.current.primaryTouch.press.isPressed) return;
@@ -93,6 +121,16 @@ public class ObjectSpawner : MonoBehaviour
         }        
     }
 
+    private void SpawnBall()
+    {
+        if (currentBall != null)
+        {
+            Destroy(currentBall);
+        }
+
+        currentBall = Instantiate(ball, player_transform);
+    }
+
 
     private IEnumerator DelayInUse()
     {
@@ -100,4 +138,103 @@ public class ObjectSpawner : MonoBehaviour
         yield return new WaitForSecondsRealtime(2f);
         delayInUsingBalls = false;
     }
+
+    private void OnFingerDown(Finger finger)
+    {
+        if (!isBasketSpawned || delayInUsingBalls || InGameMenu.PauseMode) return;
+
+        swipeStartPosition = finger.screenPosition;
+        swipeStartTime = Time.time;
+        isSwiping = true;
+
+        SpawnBall();
+    }
+
+    private void OnFingerUp(Finger finger)
+    {
+        if (!isSwiping || currentBall == null) return;
+
+        swipeEndPosition = finger.screenPosition;
+        ProcessSwipeGesture();
+        isSwiping = false;
+    }
+
+    private void ProcessSwipeGesture()
+    {
+        Vector2 swipeVector = swipeEndPosition - swipeStartPosition;
+        float swipeDistance = swipeVector.magnitude;
+        float swipeDuration = Time.time - swipeStartTime;
+
+        // Проверяем минимальные требования для жеста
+        if (swipeDistance < minSwipeDistance || swipeDuration < 0.05f)
+        {
+            // Слишком короткий свайп - отменяем бросок
+            Destroy(currentBall);
+            currentBall = null;
+            return;
+        }
+
+        // РАСЧЕТ СКОРОСТИ СВАЙПА (пиксели в секунду)
+        float swipeSpeed = swipeDistance / swipeDuration;
+
+        // РАСЧЕТ СИЛЫ БРОСКА
+        float throwForce = CalculateThrowForce(swipeSpeed, swipeDistance);
+
+        // РАСЧЕТ НАПРАВЛЕНИЯ БРОСКА
+        Vector3 throwDirection = CalculateThrowDirection(swipeVector);
+
+        // Применяем бросок
+        ExecuteThrow(throwDirection, throwForce);
+
+        StartCoroutine(DelayInUse());
+    }
+
+    private float CalculateThrowForce(float swipeSpeed, float swipeDistance)
+    {
+        // Комбинируем скорость и дистанцию для более точного расчета силы
+        float combinedForce = (swipeSpeed * 0.7f) + (swipeDistance * 0.3f);
+        float force = combinedForce * throwForceMultiplier;
+
+        return Mathf.Clamp(force, minThrowForce, maxThrowForce);
+    }
+
+    private Vector3 CalculateThrowDirection(Vector2 swipeVector)
+    {
+        // Нормализуем вектор свайпа
+        Vector2 normalizedSwipe = swipeVector.normalized;
+
+        // Преобразуем 2D вектор экрана в 3D направление в мире
+        Vector3 worldDirection = new Vector3(
+            normalizedSwipe.x,									// Горизонтальное направление
+            Mathf.Max(normalizedSwipe.y, upwardBias),			// Вертикальное направление с смещением вверх
+            Mathf.Abs(normalizedSwipe.y)						// Заднее/переднее направление
+        ).normalized;
+
+        // Учитываем поворот камеры/игрока
+        return player_transform.TransformDirection(worldDirection);
+    }
+
+    private void ExecuteThrow(Vector3 direction, float force)
+    {
+        if (currentBall == null) return;
+
+        // Убираем мяч из родителя
+        currentBall.transform.SetParent(null);
+
+        Rigidbody ballRb = currentBall.GetComponent<Rigidbody>();
+        if (ballRb != null)
+        {
+            ballRb.isKinematic = false;
+            ballRb.collisionDetectionMode = CollisionDetectionMode.Continuous; // Для лучшего обнаружения столкновений
+
+            // Применяем силу
+            ballRb.AddForce(direction * force, ForceMode.Impulse);
+
+            // Добавляем случайное вращение
+            ballRb.AddTorque(Random.insideUnitSphere * force * 0.1f, ForceMode.Impulse);
+        }
+
+        currentBall = null;
+    }
+
 }
