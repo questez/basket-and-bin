@@ -10,7 +10,7 @@ using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 public class ObjectSpawner : MonoBehaviour
 {
-    [SerializeField] private Transform player_transform;
+    private Camera arCamera; 
 
     [SerializeField] private GameObject basketRing;
     [SerializeField] private GameObject ball;
@@ -29,7 +29,7 @@ public class ObjectSpawner : MonoBehaviour
     private bool isSwiping = false;
     private GameObject currentBall;
 
-    [SerializeField] private float throwForceMultiplier = 0.002f; // Умножитель силы
+    [SerializeField] private float throwForceMultiplier = 0.001f; // множитель силы
     [SerializeField] private float minThrowForce = 2f;
     [SerializeField] private float maxThrowForce = 8f;
     [SerializeField] private float minSwipeDistance = 50f; // Минимальная дистанция свайпа в пикселях
@@ -40,6 +40,11 @@ public class ObjectSpawner : MonoBehaviour
         EnhancedTouchSupport.Enable();
         isBasketSpawned = false;
         delayInUsingBalls = false;
+    }
+
+    private void Start()
+    {
+        arCamera = Camera.main;
     }
 
     private void OnEnable()
@@ -128,7 +133,7 @@ public class ObjectSpawner : MonoBehaviour
             Destroy(currentBall);
         }
 
-        currentBall = Instantiate(ball, player_transform);
+        currentBall = Instantiate(ball, arCamera.transform);
     }
 
 
@@ -191,18 +196,18 @@ public class ObjectSpawner : MonoBehaviour
 
     private Vector3 CalculateThrowDirection(Vector2 swipeVector) // РАСЧЕТ НАПРАВЛЕНИЯ БРОСКА
     {
-        // Нормализуем вектор свайпа
+        // нормализуем вектор свайпа
         Vector2 normalizedSwipe = swipeVector.normalized;
 
-        // Преобразуем 2D вектор экрана в 3D направление в мире
+        // преобразуем 2D вектор экрана в 3D направление в мире
         Vector3 worldDirection = new Vector3(
-            normalizedSwipe.x,									// Горизонтальное направление
-            Mathf.Max(normalizedSwipe.y, upwardBias),			// Вертикальное направление с смещением вверх
-            Mathf.Abs(normalizedSwipe.y)						// Заднее/переднее направление
+            normalizedSwipe.x,									// горизонтальное направление
+            Mathf.Max(normalizedSwipe.y, upwardBias),			// вертикальное направление с смещением вверх
+            Mathf.Abs(normalizedSwipe.y)						// заднее/переднее направление
         ).normalized;
 
         // Учитываем поворот камеры/игрока
-        return player_transform.TransformDirection(worldDirection);
+        return arCamera.transform.TransformDirection(worldDirection);
     }
 
     private void ExecuteThrow(Vector3 direction, float force)
@@ -226,5 +231,4 @@ public class ObjectSpawner : MonoBehaviour
         Destroy(currentBall, 5);
         currentBall = null;
     }
-
 }
